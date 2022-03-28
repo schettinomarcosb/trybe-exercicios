@@ -41,8 +41,3 @@
 - [ ] 38-3: Pilhas
 - [ ] 38-4: Projeto - TING - Trybe Is Not Google
 ​
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 0b3051a511f23464e737187e40a34a17bbd7fe26
