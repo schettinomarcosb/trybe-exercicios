@@ -12,9 +12,9 @@
 ​
 
 **Bloco 3: Bloco 3: Introdução - HTML & CSS**
-- [ ] 3-1: Introdução à HTML & CSS e estrutura de páginas 
-- [ ] 3-2: HTML & CSS - Primeiros passos em CSS
-- [ ] 3-3: HTML & CSS - Seletores e posicionamento
+- [ ] 3-1: Introdução à HTML & CSS
+- [ ] 3-2: HTML & CSS - Estruturas de páginas
+- [ ] 3-3: HTML & CSS - PRimeiros passos em CSS
 - [ ] 3-4: HTML Semântico
 - [ ] 3-5: Projeto - Lessons Learned
 ​
