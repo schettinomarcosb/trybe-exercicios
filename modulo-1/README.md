@@ -1,4 +1,5 @@
 ## Introdução - Desenvolvimento Web ⏳
+
 **Bloco 1: Introdução - Unix & Shell**
 - [x] 1-3: Unix & Bash - Part 1
 - [x] 1-4: Unix & Bash - Part 2
