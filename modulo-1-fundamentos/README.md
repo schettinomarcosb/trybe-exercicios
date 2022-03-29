@@ -52,7 +52,7 @@
 - [ ] 7-1: JavaScript ES6 - let, const, arrow functions e template literals
 - [ ] 7-2: JavaScript ES6 - Objects
 - [ ] 7-3: Testes unitários em JavaScript
-- [ ] 7-5: Projeto - JavaScript Testes Unitários
+- [x] 7-5: Projeto - JavaScript Testes Unitários
 ​
 
 **Bloco 8: Higher Order Functions do JavaScript ES6**
