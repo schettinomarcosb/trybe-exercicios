@@ -115,16 +115,38 @@
 //   }
 // console.log(somatorio(5));
 
-function verificaFim (word, ending) {
-  word = word.split('');
-  ending = ending.split('');
-  controle = true;
-  for (let index = 0; index <= ending.length; index += 1) {
-    if (word[word.length - ending. length + index] !== ending[index]) {
-      controle = false;
+// function verificaFim (word, ending) {
+//   word = word.split('');
+//   ending = ending.split('');
+//   controle = true;
+//   for (let index = 0; index <= ending.length; index += 1) {
+//     if (word[word.length - ending. length + index] !== ending[index]) {
+//       controle = false;
+//     }
+//   }
+//   return controle;
+// }
+// console.log(verificaFim('trybe','ybe'));
+// console.log(verificaFim('trybe','tybe'));
+
+//Bônus 1:
+let romanos = {
+  i: 1,
+  v: 5,
+  x: 10,
+  l: 50,
+  c: 100,
+  d: 500,
+  m: 1000
+}
+function calculaRomano(string) {
+  string = string.split('');
+  contador = 0;
+  for(let index = 0; index < string.length; index += 1) {
+    for (index2 in romanos) {
+      if (romanos[index2] == string[index]) {
+        contador = romanos.string[index] 
+      }
     }
   }
-  return controle;
 }
-console.log(verificaFim('trybe','ybe'));
-console.log(verificaFim('trybe','tybe'));
