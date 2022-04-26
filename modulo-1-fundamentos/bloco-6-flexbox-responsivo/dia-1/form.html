@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicios 6.1</title>
+</head>
+<body>
+  <form action="" method="get">
+    <fieldset>
+      <label for="input-name"> Nome:
+      <input type="text" minlength="10" maxlength="40" id="input-name" required>
+      </label> <br> <br>
+      <label for="input-email"> Email:
+        <input type="email" minlength="10" maxlength="50" id="input-email" required>
+      </label> <br>
+      <label for="input-favorite1">
+        <input type="radio" id="input-favorite1" name="favorite-destination" required> Opção 1
+      </label>
+      <label for="input-favorite2">
+        <input type="radio" id="input-favorite2" name="favorite-destination"> Opção 2
+      </label>
+      <label for="input-favorite3">
+        <input type="radio" id="input-favorite3" name="favorite-destination"> Opção 3
+      </label>
+      <label for="input-favorite4">
+        <input type="radio" id="input-favorite4" name="favorite-destination"> Opção 4
+      </label>
+      <p> Espaço para digitar a resposta:</p>
+      <textarea name="" id="textarea" cols="40" rows="10" maxlength="500" required></textarea> <br> <br>
+      <label for="input-data"> Data:
+        <input type="date" id="input-data" required>
+      </label> <br>
+      <label for="input-checkbox1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? <input type="checkbox" id="input-checkbox1"> </label> <br>
+      <label for="input-checkbox2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.<input type="checkbox" id="input-checkbox2"> </label> <br>   
+      <button type="submit" id="button"> Enviar </button>
+    </fieldset>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
